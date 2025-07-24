@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // REQUIRED for static export
-
+  output: 'export',
+  basePath: '/Knights24.github.io',
+  assetPrefix: '/Knights24.github.io/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,8 +10,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // required for export mode
+    unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
