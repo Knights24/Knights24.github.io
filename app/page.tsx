@@ -581,10 +581,10 @@ const handleDownloadCV = () => {
                       <div className="flex items-center gap-3">
                         <Linkedin className="w-5 h-5 text-purple-400" />
                         <Link
-                          href="https://www.linkedin.com/in/vivek-vishwakarma-dev"
+                          href="https://www.linkedin.com/in/viveks21/"
                           className="text-purple-400 hover:text-purple-300 hover:underline transition-all duration-200 font-mono"
                         >
-                          linkedin.com/in/vivek-vishwakarma
+                          linkedin.com/in/viveks21
                         </Link>
                       </div>
                       <div className="flex items-center gap-3">
